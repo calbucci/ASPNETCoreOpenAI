@@ -1,0 +1,16 @@
+﻿<Project>
+  <ItemGroup>
+    <StaticWebAssetEndpoint Include="_content/ASPNETCoreOpenAI/index.html">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\index.html'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-ZWlrsDcH4LLcMh4EKKjl4ansYlQlvu\u002BwagH\u002BsXdxnyY="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1212"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022ZWlrsDcH4LLcMh4EKKjl4ansYlQlvu\u002BwagH\u002BsXdxnyY=\u0022"},{"Name":"Last-Modified","Value":"Mon, 14 Apr 2025 22:36:08 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/ASPNETCoreOpenAI/index.vrvzvbwypn.html">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\index.html'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"vrvzvbwypn"},{"Name":"integrity","Value":"sha256-ZWlrsDcH4LLcMh4EKKjl4ansYlQlvu\u002BwagH\u002BsXdxnyY="},{"Name":"label","Value":"_content/ASPNETCoreOpenAI/index.html"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1212"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022ZWlrsDcH4LLcMh4EKKjl4ansYlQlvu\u002BwagH\u002BsXdxnyY=\u0022"},{"Name":"Last-Modified","Value":"Mon, 14 Apr 2025 22:36:08 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+  </ItemGroup>
+</Project>

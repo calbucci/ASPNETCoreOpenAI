@@ -1,0 +1,24 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASPNETCoreOpenAI", "ASPNETCoreOpenAI.csproj", "{2E720478-5565-A81F-59DC-7D9D62CF8131}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2E720478-5565-A81F-59DC-7D9D62CF8131}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E720478-5565-A81F-59DC-7D9D62CF8131}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E720478-5565-A81F-59DC-7D9D62CF8131}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E720478-5565-A81F-59DC-7D9D62CF8131}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1C8B823B-016E-48E6-9AE2-F43C4F6C81AC}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,41 @@
+<!-- index.html placed in wwwroot folder -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Chat with ChatGPT</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/microsoft-signalr/6.0.5/signalr.min.js"></script>
+  </head>
+  <body>
+    <div>
+      <input type="text" id="messageInput" placeholder="Type your message..." />
+      <button onclick="sendMessage()">Send</button>
+    </div>
+    <div
+      id="chatWindow"
+      style="border: 1px solid #ccc; padding: 10px; margin-top: 10px"
+    ></div>
+
+    <script>
+      const connection = new signalR.HubConnectionBuilder()
+        .withUrl("/chatHub")
+        .build();
+
+      connection.on("ReceiveToken", (token) => {
+        alert(token);
+        const chatWindow = document.getElementById("chatWindow");
+        chatWindow.innerHTML += `<p>${token}</p>`;
+      });
+
+      connection.start().catch((err) => console.error(err.toString()));
+
+      function sendMessage() {
+        const input = document.getElementById("messageInput");
+        connection
+          .invoke("SendMessage", input.value)
+          .catch((err) => console.error(err.toString()));
+        input.value = "";
+      }
+    </script>
+  </body>
+</html>
