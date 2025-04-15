@@ -4,3 +4,8 @@
 # Build results
 [Bb]in/
 [Oo]bj/
+[Bb]in*/
+[Dd]ebug*/
+[Rr]elease*/
+Build/
+
