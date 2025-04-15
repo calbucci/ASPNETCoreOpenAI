@@ -23,7 +23,6 @@ public class ChatHub : Hub
             await Clients.Caller.SendAsync("ReceiveToken", item.Text);
         }
 
-        await Clients.Caller.SendAsync("ReceiveMessage", "[BREAK]");
         _chatHistory.Add(new ChatMessage(ChatRole.Assistant, response.ToString()));
 
     }
