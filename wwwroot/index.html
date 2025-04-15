@@ -16,18 +16,19 @@
 
     <script>
       const chatWindow = document.getElementById("chatWindow");
-      const input = document.getElementById("messageInput");
 
       const connection = new signalR.HubConnectionBuilder()
         .withUrl("/chatHub")
-        .build()
-        .on("ReceiveToken", (token) => {
-          chatWindow.innerHTML += `${token}`;
-        });
+        .build();
+
+      connection.on("ReceiveToken", (token) => {
+        chatWindow.innerHTML += `${token}`;
+      });
 
       connection.start().catch((err) => console.error(err.toString()));
 
       function sendMessage() {
+        const input = document.getElementById("messageInput");
         chatWindow.innerHTML += `<div style="color: blue;">You: ${input.value}</div>AI: `;
         connection
           .invoke("SendMessage", input.value)
