@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "QGnKup/ZkbMoM+mWxCIP1sH0stw8CyTgyljD7uXf68g=",
+  "Hash": "Dsj4V44TCbUteUn1CVzDs6zK57HHhsLX//M023LmWZw=",
   "Source": "ASPNETCoreOpenAI",
   "BasePath": "_content/ASPNETCoreOpenAI",
   "Mode": "Default",
@@ -17,12 +17,12 @@
   ],
   "Assets": [
     {
-      "Identity": "/Users/marcelocalbucci/Code/ASPNETCoreOpenAI/obj/Debug/net9.0/compressed/pcr2x6so64-vrvzvbwypn.gz",
+      "Identity": "/Users/marcelocalbucci/Code/ASPNETCoreOpenAI/obj/Debug/net9.0/compressed/pcr2x6so64-2mecp47sdc.gz",
       "SourceId": "ASPNETCoreOpenAI",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/marcelocalbucci/Code/ASPNETCoreOpenAI/obj/Debug/net9.0/compressed/",
       "BasePath": "_content/ASPNETCoreOpenAI",
-      "RelativePath": "index#[.{fingerprint=vrvzvbwypn}]?.html.gz",
+      "RelativePath": "index#[.{fingerprint=2mecp47sdc}]?.html.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -31,8 +31,8 @@
       "RelatedAsset": "/Users/marcelocalbucci/Code/ASPNETCoreOpenAI/wwwroot/index.html",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "sjavfqouwd",
-      "Integrity": "2KFbfHTM6sbVrXoc4UtSx6ka18uUduZBoSPJIzmYKfQ=",
+      "Fingerprint": "zj3nexgj7n",
+      "Integrity": "vyOJpUPzeRMU3xmmvqoVJBW2/w1nAny6Xi6v03QkdR0=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "/Users/marcelocalbucci/Code/ASPNETCoreOpenAI/wwwroot/index.html"
@@ -52,8 +52,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "vrvzvbwypn",
-      "Integrity": "ZWlrsDcH4LLcMh4EKKjl4ansYlQlvu+wagH+sXdxnyY=",
+      "Fingerprint": "2mecp47sdc",
+      "Integrity": "+o2ZxMGsCjIxN39t8yi6e6h2ne3LVrr3Jw7fCN4GoU8=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/index.html"
@@ -61,13 +61,13 @@
   ],
   "Endpoints": [
     {
-      "Route": "index.html",
-      "AssetFile": "/Users/marcelocalbucci/Code/ASPNETCoreOpenAI/obj/Debug/net9.0/compressed/pcr2x6so64-vrvzvbwypn.gz",
+      "Route": "index.2mecp47sdc.html",
+      "AssetFile": "/Users/marcelocalbucci/Code/ASPNETCoreOpenAI/obj/Debug/net9.0/compressed/pcr2x6so64-2mecp47sdc.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.001610305958"
+          "Quality": "0.001470588235"
         }
       ],
       "ResponseHeaders": [
@@ -77,19 +77,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "620"
+          "Value": "679"
         },
         {
           "Name": "ETag",
-          "Value": "\"2KFbfHTM6sbVrXoc4UtSx6ka18uUduZBoSPJIzmYKfQ=\""
+          "Value": "\"vyOJpUPzeRMU3xmmvqoVJBW2/w1nAny6Xi6v03QkdR0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 14 Apr 2025 22:36:08 GMT"
+          "Value": "Tue, 15 Apr 2025 00:31:17 GMT"
         },
         {
           "Name": "Cache-Control",
-          "Value": "no-cache"
+          "Value": "max-age=31536000, immutable"
         },
         {
           "Name": "Content-Encoding",
@@ -105,18 +105,26 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"ZWlrsDcH4LLcMh4EKKjl4ansYlQlvu+wagH+sXdxnyY=\""
+          "Value": "W/\"+o2ZxMGsCjIxN39t8yi6e6h2ne3LVrr3Jw7fCN4GoU8=\""
         }
       ],
       "EndpointProperties": [
         {
+          "Name": "fingerprint",
+          "Value": "2mecp47sdc"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html"
+        },
+        {
           "Name": "integrity",
-          "Value": "sha256-ZWlrsDcH4LLcMh4EKKjl4ansYlQlvu+wagH+sXdxnyY="
+          "Value": "sha256-+o2ZxMGsCjIxN39t8yi6e6h2ne3LVrr3Jw7fCN4GoU8="
         }
       ]
     },
     {
-      "Route": "index.html",
+      "Route": "index.2mecp47sdc.html",
       "AssetFile": "/Users/marcelocalbucci/Code/ASPNETCoreOpenAI/wwwroot/index.html",
       "Selectors": [],
       "ResponseHeaders": [
@@ -126,7 +134,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1212"
+          "Value": "1380"
         },
         {
           "Name": "Content-Type",
@@ -134,121 +142,21 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"ZWlrsDcH4LLcMh4EKKjl4ansYlQlvu+wagH+sXdxnyY=\""
+          "Value": "\"+o2ZxMGsCjIxN39t8yi6e6h2ne3LVrr3Jw7fCN4GoU8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 14 Apr 2025 22:36:08 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-ZWlrsDcH4LLcMh4EKKjl4ansYlQlvu+wagH+sXdxnyY="
-        }
-      ]
-    },
-    {
-      "Route": "index.html.gz",
-      "AssetFile": "/Users/marcelocalbucci/Code/ASPNETCoreOpenAI/obj/Debug/net9.0/compressed/pcr2x6so64-vrvzvbwypn.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "620"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/html"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"2KFbfHTM6sbVrXoc4UtSx6ka18uUduZBoSPJIzmYKfQ=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 14 Apr 2025 22:36:08 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-2KFbfHTM6sbVrXoc4UtSx6ka18uUduZBoSPJIzmYKfQ="
-        }
-      ]
-    },
-    {
-      "Route": "index.vrvzvbwypn.html",
-      "AssetFile": "/Users/marcelocalbucci/Code/ASPNETCoreOpenAI/obj/Debug/net9.0/compressed/pcr2x6so64-vrvzvbwypn.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.001610305958"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "620"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"2KFbfHTM6sbVrXoc4UtSx6ka18uUduZBoSPJIzmYKfQ=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 14 Apr 2025 22:36:08 GMT"
+          "Value": "Tue, 15 Apr 2025 00:31:17 GMT"
         },
         {
           "Name": "Cache-Control",
           "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/html"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"ZWlrsDcH4LLcMh4EKKjl4ansYlQlvu+wagH+sXdxnyY=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "vrvzvbwypn"
+          "Value": "2mecp47sdc"
         },
         {
           "Name": "label",
@@ -256,13 +164,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-ZWlrsDcH4LLcMh4EKKjl4ansYlQlvu+wagH+sXdxnyY="
+          "Value": "sha256-+o2ZxMGsCjIxN39t8yi6e6h2ne3LVrr3Jw7fCN4GoU8="
         }
       ]
     },
     {
-      "Route": "index.vrvzvbwypn.html",
-      "AssetFile": "/Users/marcelocalbucci/Code/ASPNETCoreOpenAI/wwwroot/index.html",
+      "Route": "index.2mecp47sdc.html.gz",
+      "AssetFile": "/Users/marcelocalbucci/Code/ASPNETCoreOpenAI/obj/Debug/net9.0/compressed/pcr2x6so64-2mecp47sdc.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -271,7 +179,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1212"
+          "Value": "679"
         },
         {
           "Name": "Content-Type",
@@ -279,56 +187,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"ZWlrsDcH4LLcMh4EKKjl4ansYlQlvu+wagH+sXdxnyY=\""
+          "Value": "\"vyOJpUPzeRMU3xmmvqoVJBW2/w1nAny6Xi6v03QkdR0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 14 Apr 2025 22:36:08 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "vrvzvbwypn"
-        },
-        {
-          "Name": "label",
-          "Value": "index.html"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-ZWlrsDcH4LLcMh4EKKjl4ansYlQlvu+wagH+sXdxnyY="
-        }
-      ]
-    },
-    {
-      "Route": "index.vrvzvbwypn.html.gz",
-      "AssetFile": "/Users/marcelocalbucci/Code/ASPNETCoreOpenAI/obj/Debug/net9.0/compressed/pcr2x6so64-vrvzvbwypn.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "620"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/html"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"2KFbfHTM6sbVrXoc4UtSx6ka18uUduZBoSPJIzmYKfQ=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 14 Apr 2025 22:36:08 GMT"
+          "Value": "Tue, 15 Apr 2025 00:31:17 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -346,7 +209,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "vrvzvbwypn"
+          "Value": "2mecp47sdc"
         },
         {
           "Name": "label",
@@ -354,7 +217,144 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-2KFbfHTM6sbVrXoc4UtSx6ka18uUduZBoSPJIzmYKfQ="
+          "Value": "sha256-vyOJpUPzeRMU3xmmvqoVJBW2/w1nAny6Xi6v03QkdR0="
+        }
+      ]
+    },
+    {
+      "Route": "index.html",
+      "AssetFile": "/Users/marcelocalbucci/Code/ASPNETCoreOpenAI/obj/Debug/net9.0/compressed/pcr2x6so64-2mecp47sdc.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001470588235"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "679"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vyOJpUPzeRMU3xmmvqoVJBW2/w1nAny6Xi6v03QkdR0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 15 Apr 2025 00:31:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"+o2ZxMGsCjIxN39t8yi6e6h2ne3LVrr3Jw7fCN4GoU8=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-+o2ZxMGsCjIxN39t8yi6e6h2ne3LVrr3Jw7fCN4GoU8="
+        }
+      ]
+    },
+    {
+      "Route": "index.html",
+      "AssetFile": "/Users/marcelocalbucci/Code/ASPNETCoreOpenAI/wwwroot/index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1380"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+o2ZxMGsCjIxN39t8yi6e6h2ne3LVrr3Jw7fCN4GoU8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 15 Apr 2025 00:31:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-+o2ZxMGsCjIxN39t8yi6e6h2ne3LVrr3Jw7fCN4GoU8="
+        }
+      ]
+    },
+    {
+      "Route": "index.html.gz",
+      "AssetFile": "/Users/marcelocalbucci/Code/ASPNETCoreOpenAI/obj/Debug/net9.0/compressed/pcr2x6so64-2mecp47sdc.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "679"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vyOJpUPzeRMU3xmmvqoVJBW2/w1nAny6Xi6v03QkdR0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 15 Apr 2025 00:31:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-vyOJpUPzeRMU3xmmvqoVJBW2/w1nAny6Xi6v03QkdR0="
         }
       ]
     }

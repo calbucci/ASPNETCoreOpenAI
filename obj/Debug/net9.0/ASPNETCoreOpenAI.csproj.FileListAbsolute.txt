@@ -31,4 +31,15 @@
 /Users/marcelocalbucci/Code/ASPNETCoreOpenAI/bin/Debug/net9.0/Sprache.dll
 /Users/marcelocalbucci/Code/ASPNETCoreOpenAI/obj/Debug/net9.0/ASPNETCoreOpenAI.csproj.AssemblyReference.cache
 /Users/marcelocalbucci/Code/ASPNETCoreOpenAI/obj/Debug/net9.0/ASPNETCo.DCF9D611.Up2Date
-/Users/marcelocalbucci/Code/ASPNETCoreOpenAI/obj/Debug/net9.0/compressed/pcr2x6so64-vrvzvbwypn.gz
+/Users/marcelocalbucci/Code/ASPNETCoreOpenAI/bin/Debug/net9.0/Microsoft.Extensions.AI.dll
+/Users/marcelocalbucci/Code/ASPNETCoreOpenAI/bin/Debug/net9.0/Microsoft.Extensions.AI.Abstractions.dll
+/Users/marcelocalbucci/Code/ASPNETCoreOpenAI/bin/Debug/net9.0/Microsoft.Extensions.AI.OpenAI.dll
+/Users/marcelocalbucci/Code/ASPNETCoreOpenAI/bin/Debug/net9.0/Microsoft.Extensions.Caching.Abstractions.dll
+/Users/marcelocalbucci/Code/ASPNETCoreOpenAI/bin/Debug/net9.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+/Users/marcelocalbucci/Code/ASPNETCoreOpenAI/bin/Debug/net9.0/Microsoft.Extensions.Logging.Abstractions.dll
+/Users/marcelocalbucci/Code/ASPNETCoreOpenAI/bin/Debug/net9.0/Microsoft.Extensions.Primitives.dll
+/Users/marcelocalbucci/Code/ASPNETCoreOpenAI/bin/Debug/net9.0/OpenAI.dll
+/Users/marcelocalbucci/Code/ASPNETCoreOpenAI/bin/Debug/net9.0/System.ClientModel.dll
+/Users/marcelocalbucci/Code/ASPNETCoreOpenAI/bin/Debug/net9.0/System.Memory.Data.dll
+/Users/marcelocalbucci/Code/ASPNETCoreOpenAI/obj/Debug/net9.0/ASPNETCoreOpenAI.sourcelink.json
+/Users/marcelocalbucci/Code/ASPNETCoreOpenAI/obj/Debug/net9.0/compressed/pcr2x6so64-2mecp47sdc.gz

@@ -1,14 +1,18 @@
 using Microsoft.Extensions.AI;
-using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Hosting;
+using OpenAI;
+using OpenAI.Chat;
+
+DotNetEnv.Env.Load();
 
 var builder = WebApplication.CreateBuilder(args);
 
-builder.Services.AddSignalR();
-builder.Services.AddHttpClient<IChatService, ChatService>();
-builder.Services.AddChatClient(new OpenAI.Chat.ChatClient("", apiKey));
+var apiKey = Environment.GetEnvironmentVariable("OpenAIKey");
 
-DotNetEnv.Env.Load();
+builder.Services.AddSignalR();
+//builder.Services.AddHttpClient<IChatService, ChatService>();
+
+var chatClient = new OpenAIClient(apiKey).GetChatClient("gpt-4o-2024-11-20").AsIChatClient();
+builder.Services.AddChatClient(chatClient);
 
 var app = builder.Build();
 

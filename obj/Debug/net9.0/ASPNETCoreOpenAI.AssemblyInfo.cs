@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ASPNETCoreOpenAI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f8aae00c2113c47f20bf9626562ede59b6d9ae3d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+33160207aada475683a50606d48609ca2e4c37ac")]
 [assembly: System.Reflection.AssemblyProductAttribute("ASPNETCoreOpenAI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ASPNETCoreOpenAI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

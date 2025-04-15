@@ -17,23 +17,28 @@
     ></div>
 
     <script>
+      const chatWindow = document.getElementById("chatWindow");
       const connection = new signalR.HubConnectionBuilder()
         .withUrl("/chatHub")
         .build();
 
       connection.on("ReceiveToken", (token) => {
-        alert(token);
-        const chatWindow = document.getElementById("chatWindow");
-        chatWindow.innerHTML += `<p>${token}</p>`;
+        if (token === "[BREAK]") {
+          chatWindow.innerHTML += "<br/>";
+        } else {
+          chatWindow.innerHTML += `${token}`;
+        }
       });
 
       connection.start().catch((err) => console.error(err.toString()));
 
       function sendMessage() {
         const input = document.getElementById("messageInput");
+        chatWindow.innerHTML += `<div style="color: blue;">You: ${input.value}</div>AI: `;
         connection
           .invoke("SendMessage", input.value)
           .catch((err) => console.error(err.toString()));
+
         input.value = "";
       }
     </script>
